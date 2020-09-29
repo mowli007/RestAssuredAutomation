@@ -96,7 +96,9 @@ public class GetData
 	System.out.println("al======"+ allShipIds);
 	
 	System.out.println("directly contains ===== " + allShipIds.containsAll(shipId));
-			
+	
+	
+   Assert.assertTrue(allShipIds.containsAll(shipId));
 	}
 	
 	/**
